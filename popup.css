@@ -1,0 +1,19 @@
+body {
+    background: blue ;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border-radius: 6px;
+    border: none;
+    background-color: aliceblue;
+    padding: 4px;
+    margin: 5px;
+}

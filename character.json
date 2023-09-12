@@ -1,0 +1,15 @@
+{
+"entryTable":{"id":"ContentPlaceHolder1_entryTable", "value": ""},
+"imprisonment5Years":{"id":"ContentPlaceHolder1_character_imprisonment5YearsDropDownList", "value": ""},
+"imprisonment12Months":{"id":"ContentPlaceHolder1_character_imprisonment12MonthsDropDownList", "value": ""},
+"deported":{"id":"ContentPlaceHolder1_character_deportedDropDownList", "value": ""},
+"deportedDate":{"id":"ContentPlaceHolder1_character_deportedDateDatePicker", "value": ""},
+"deportedDate":{"id":"ContentPlaceHolder1_character_deportedDateDatePicker_DatePicker", "value": ""},
+"country":{"id":"ContentPlaceHolder1_character_countryDropDownList", "value": ""},
+"charged":{"id":"ContentPlaceHolder1_character_chargedDropDownList", "value": ""},
+"convicted":{"id":"ContentPlaceHolder1_character_convictedDropDownList", "value": ""},
+"underInvestigation":{"id":"ContentPlaceHolder1_character_underInvestigationDropDownList", "value": ""},
+"excluded":{"id":"ContentPlaceHolder1_character_excludedDropDownList", "value": ""},
+"removed":{"id":"ContentPlaceHolder1_character_removedDropDownList", "value": ""},
+"excludeRemovedDetails":{"id":"ContentPlaceHolder1_character_excludeRemovedDetailsTextBox", "value": ""}
+}

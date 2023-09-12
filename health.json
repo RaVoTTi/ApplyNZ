@@ -1,0 +1,13 @@
+{
+"entryTable":{"id":"ContentPlaceHolder1_entryTable", "value": ""},
+"renalDialysis":{"id":"ContentPlaceHolder1_medicalConditions_renalDialysisDropDownList", "value": ""},
+"tuberculosis":{"id":"ContentPlaceHolder1_medicalConditions_tuberculosisDropDownList", "value": ""},
+"cancer":{"id":"ContentPlaceHolder1_medicalConditions_cancerDropDownList", "value": ""},
+"heartDisease":{"id":"ContentPlaceHolder1_medicalConditions_heartDiseaseDropDownList", "value": ""},
+"disability":{"id":"ContentPlaceHolder1_medicalConditions_disabilityDropDownList", "value": ""},
+"hospitalisation":{"id":"ContentPlaceHolder1_medicalConditions_hospitalisationDropDownList", "value": ""},
+"residentailCare":{"id":"ContentPlaceHolder1_medicalConditions_residentailCareDropDownList", "value": ""},
+"healthDetails":{"id":"ContentPlaceHolder1_medicalConditions_healthDetailsTextBox", "value": ""},
+"tbRiskAnchor":{"id":"ContentPlaceHolder1_medicalConditions_tbRiskAnchor", "value": ""},
+"tbRisk":{"id":"ContentPlaceHolder1_medicalConditions_tbRiskDropDownList", "value": ""}
+}

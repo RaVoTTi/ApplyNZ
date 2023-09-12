@@ -1,0 +1,10 @@
+{
+"passportNumber":{"id":"ContentPlaceHolder1_identification_passportNumberTextBox", "value": ""},
+"confirmPassportNumber":{"id":"ContentPlaceHolder1_identification_confirmPassportNumberTextBox", "value": ""},
+"passportExpiryDate":{"id":"ContentPlaceHolder1_identification_passportExpiryDateDatePicker_DatePicker", "value": ""},
+"otherIdentification":{"id":"ContentPlaceHolder1_identification_otherIdentificationDropdownlist", "value": ""},
+"otherIssueDate":{"id":"ContentPlaceHolder1_identification_otherIssueDateDatePicker_DatePicker", "value": ""},
+"otherExpiryDate":{"id":"ContentPlaceHolder1_identification_otherExpiryDateDatePicker_DatePicker", "value": ""},
+"passportCountry":{"id":"ContentPlaceHolder1_identification_passportCountryDropDownList", "value": ""}
+}
+}

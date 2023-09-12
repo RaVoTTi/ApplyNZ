@@ -1,0 +1,14 @@
+{
+"entryTable":{"id":"ContentPlaceHolder1_entryTable", "value": ""},
+"previousWhsPermitVisa":{"id":"ContentPlaceHolder1_offshoreDetails_commonWHSQuestions_previousWhsPermitVisaDropDownList", "value": ""},
+"sufficientFundsAnchor":{"id":"ContentPlaceHolder1_offshoreDetails_commonWHSQuestions_sufficientFundsAnchor", "value": ""},
+"sufficientFundsHoliday":{"id":"ContentPlaceHolder1_offshoreDetails_commonWHSQuestions_sufficientFundsHolidayDropDownList", "value": ""},
+"intendedTravelDate":{"id":"ContentPlaceHolder1_offshoreDetails_intendedTravelDateDatePicker", "value": ""},
+"intendedTravelDate1":{"id":"ContentPlaceHolder1_offshoreDetails_intendedTravelDateDatePicker_DatePicker", "value": ""},
+"beenToNz":{"id":"ContentPlaceHolder1_offshoreDetails_beenToNzDropDownList", "value": ""},
+"whenInNZ":{"id":"ContentPlaceHolder1_offshoreDetails_whenInNZDatePicker", "value": ""},
+"whenInNZ":{"id":"ContentPlaceHolder1_offshoreDetails_whenInNZDatePicker_DatePicker", "value": ""},
+"sufficientFundsOnwardTicket":{"id":"ContentPlaceHolder1_offshoreDetails_requirementsQuestions_sufficientFundsOnwardTicketDropDownList", "value": ""},
+"specificRequirementsAnchor":{"id":"ContentPlaceHolder1_offshoreDetails_requirementsQuestions_specificRequirementsAnchor", "value": ""},
+"readRequirements":{"id":"ContentPlaceHolder1_offshoreDetails_requirementsQuestions_readRequirementsDropDownList", "value": ""}
+}

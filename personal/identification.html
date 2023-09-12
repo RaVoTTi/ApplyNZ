@@ -1,0 +1,104 @@
+<table id="ContentPlaceHolder1_entryTable" cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tbody><tr>
+		<td>
+                    
+<table width="90%">
+    <tbody><tr style="visibility: hidden">
+        <td width="60%"></td>
+        <td width="40%">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <h3 style="margin-top: 0">Passport Details</h3>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <p>
+                Provide the details of the passport you intend to use to enter New Zealand.
+                If you are already in New Zealand, please provide details of the passport you 
+                used to enter New Zealand. 
+            </p>
+            <p>
+                Ensure all details are correct as this information will be used to determine 
+                your entitlement to enter New Zealand.<br>
+                <b style="font-style: italic">Note:</b> If the details are incorrect you will not be able to use your visa.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="60%">Passport Number</td>
+        <td width="40%">
+            <input name="_ctl0:ContentPlaceHolder1:identification:passportNumberTextBox" type="text" maxlength="15" id="ContentPlaceHolder1_identification_passportNumberTextBox" size="15" oninput="nzis.UpdateTextBoxErrorLabel(this)" errorlabel="mandatory">
+            
+        </td>
+    </tr>
+    <tr>
+        <td width="60%">Please re-enter Passport Number</td>
+        <td width="40%">
+            <input name="_ctl0:ContentPlaceHolder1:identification:confirmPassportNumberTextBox" type="text" maxlength="15" id="ContentPlaceHolder1_identification_confirmPassportNumberTextBox" size="15" oninput="nzis.UpdateTextBoxErrorLabel(this)" errorlabel="mandatory">
+            
+            <span controltovalidate="ContentPlaceHolder1_identification_confirmPassportNumberTextBox" id="ContentPlaceHolder1_identification_confirmPassportNumberCompareValidator" class="errormessagesmall" evaluationfunction="CompareValidatorEvaluateIsValid" controltocompare="ContentPlaceHolder1_identification_passportNumberTextBox" controlhookup="ContentPlaceHolder1_identification_passportNumberTextBox" style="visibility:hidden;">The passport numbers you have entered do not match.  Please re-enter your passport numbers.</span>
+        </td>
+    </tr>
+    <tr>
+        <td>Citizenship of Passport</td>
+        <td>
+            <span><b>Belgium</b></span>
+            
+        </td>
+    </tr>
+    <tr>
+        <td>Passport Expiry Date</td>
+        <td>
+            <span id="ContentPlaceHolder1_identification_passportExpiryDateDatePicker" onchange="nzis.UpdateTextBoxErrorLabel(this)" errorlabel="mandatory"><div class="jq-date-picker"><input name="_ctl0:ContentPlaceHolder1:identification:passportExpiryDateDatePicker_DatePicker" type="text" id="ContentPlaceHolder1_identification_passportExpiryDateDatePicker_DatePicker" errorlabel="mandatory" onchange="nzis.UpdateTextBoxErrorLabel(this)" class="hasDatepicker"><img class="ui-datepicker-trigger" src="/Images/Calendar.svg" alt="Select date" title="Select date"></div><script>$(function(){$("#ContentPlaceHolder1_identification_passportExpiryDateDatePicker_DatePicker").datepicker({showOn: "button",buttonImage: "/Images/Calendar.svg",buttonImageOnly: true,buttonText: "Select date",minDate: "-0Y",maxDate: "+25Y",defaultDate: "",changeMonth: "true",changeYear: "true",yearRange: "-0Y:+25Y",dateFormat: "d MM, yy"});});</script></span>
+            
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <h3>Second Form of Identification</h3>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <p>
+                Please enter the details of another Form of Identification you would be able to produce to prove your identity.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>Identification Type</td>
+        <td>
+            <div class="select2-container" id="s2id_ContentPlaceHolder1_identification_otherIdentificationDropdownlist"><a href="javascript:void(0)" class="select2-choice select2-default select2-required" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-1">Select an Option</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen1" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1"></div><select name="_ctl0:ContentPlaceHolder1:identification:otherIdentificationDropdownlist" id="ContentPlaceHolder1_identification_otherIdentificationDropdownlist" onchange="nzis.UpdateDropdownErrorLabel(this)" errorlabel="mandatory" tabindex="-1" title="" style="display: none;">
+			<option selected="selected" value=""></option>
+			<option value="1">Driver License</option>
+			<option value="2">Birth Certificate</option>
+			<option value="3">National ID</option>
+
+		</select>
+            
+        </td>
+    </tr>
+    <tr>
+        <td>Date Document was Issued</td>
+        <td>
+            <span id="ContentPlaceHolder1_identification_otherIssueDateDatePicker" onchange="nzis.UpdateTextBoxErrorLabel(this)" errorlabel="mandatory"><div class="jq-date-picker"><input name="_ctl0:ContentPlaceHolder1:identification:otherIssueDateDatePicker_DatePicker" type="text" id="ContentPlaceHolder1_identification_otherIssueDateDatePicker_DatePicker" errorlabel="mandatory" onchange="nzis.UpdateTextBoxErrorLabel(this)" class="hasDatepicker"><img class="ui-datepicker-trigger" src="/Images/Calendar.svg" alt="Select date" title="Select date"></div><script>$(function(){$("#ContentPlaceHolder1_identification_otherIssueDateDatePicker_DatePicker").datepicker({showOn: "button",buttonImage: "/Images/Calendar.svg",buttonImageOnly: true,buttonText: "Select date",minDate: "-31Y",maxDate: "+0Y",defaultDate: "",changeMonth: "true",changeYear: "true",yearRange: "-31Y:+0Y",dateFormat: "d MM, yy"});});</script></span>
+            
+        </td>
+    </tr>
+    <tr>
+        <td>Expiry Date of Document
+            <br>
+            (Where applicable)</td>
+        <td>
+            <span id="ContentPlaceHolder1_identification_otherExpiryDateDatePicker" errorlabel="none"><div class="jq-date-picker"><input name="_ctl0:ContentPlaceHolder1:identification:otherExpiryDateDatePicker_DatePicker" type="text" id="ContentPlaceHolder1_identification_otherExpiryDateDatePicker_DatePicker" errorlabel="none" class="hasDatepicker"><img class="ui-datepicker-trigger" src="/Images/Calendar.svg" alt="Select date" title="Select date"></div><script>$(function(){$("#ContentPlaceHolder1_identification_otherExpiryDateDatePicker_DatePicker").datepicker({showOn: "button",buttonImage: "/Images/Calendar.svg",buttonImageOnly: true,buttonText: "Select date",minDate: "-0Y",maxDate: "+25Y",defaultDate: "",changeMonth: "true",changeYear: "true",yearRange: "-0Y:+25Y",dateFormat: "d MM, yy"});});</script></span>
+            
+        </td>
+    </tr>
+</tbody></table>
+<input name="_ctl0:ContentPlaceHolder1:identification:passportCountryDropDownList" type="hidden" id="ContentPlaceHolder1_identification_passportCountryDropDownList" value="24">
+                </td>
+	</tr>
+</tbody></table>
